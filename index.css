@@ -1,0 +1,53 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background-color: black;
+}
+.main{
+   background-color: white;
+   width: 60%;
+   margin: 100px auto 0;
+   padding: 40px;
+}
+.main h1{
+   font-size: 30px;
+   border-bottom: 1px solid black;
+   padding: 30px;
+   font-weight: 600;
+}
+.main1{
+   padding: 30px;
+}
+.main1 h2{
+   padding-bottom: 20px;
+}
+.bbb{
+   width: 100%;
+   border: 1px solid black;
+   padding: 10px;
+   text-align: left;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   transition: all 0.3s;
+}
+.bbb:hover{
+   background-color: black;
+   color: white;
+}
+.next{
+   text-align: center;
+}
+.nextbbb{
+   padding: 10px 20px;
+   border-radius: 4px;
+   background-color: black;
+   color: white;
+}
+.correct{
+   background-color:#9aeabc ;
+}
+.incorrect{
+   background-color: #ff9393;
+}
